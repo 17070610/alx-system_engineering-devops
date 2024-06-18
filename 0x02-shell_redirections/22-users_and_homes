@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -F":" '{print $6}' /etc/paaswd | sort
+cut -f 1,6 -d ':' /etc/passwd | sort
