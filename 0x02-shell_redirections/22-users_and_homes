@@ -1,2 +1,2 @@
 #!/bin/bash
-awk -F":" '{print $6}' /etc/paaswd | sort
+cut -F":" '{print $6}' /etc/paaswd | sort
