@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# This script displays numbers from 1 yo 20 with exception on some iterations
+
+count=1
+while [ $count -eq 20 ]
+do
+	case $count in
+		4)
+			echo "bad luck from China"
+			;;
+		9)
+			echo "bad luck from Japan"
+			;;
+		17)
+			echo "bad luck from Italy"
+			;;
+		*)
+			echo "$count"
+			;;
+		esac
+	((count++))
+done
