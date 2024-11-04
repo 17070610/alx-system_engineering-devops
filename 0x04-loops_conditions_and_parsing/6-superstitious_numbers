@@ -2,16 +2,19 @@
 # This script displays numbers from 1 yo 20 with exception on some iterations
 
 count=1
-while [ $count -eq 20 ]
+while [ $count -le 20 ]
 do
 	case $count in
 		4)
+			echo "$count"
 			echo "bad luck from China"
 			;;
 		9)
+			echo "$count"
 			echo "bad luck from Japan"
 			;;
 		17)
+			echo "$count"
 			echo "bad luck from Italy"
 			;;
 		*)
