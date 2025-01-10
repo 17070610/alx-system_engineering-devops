@@ -1,7 +1,7 @@
-#!/usr/bin/pup
+#!/usr/bin/puppet
 
 # Install flask of version 2.1.0
-package {'flask':
+package { 'flask':
   ensure   => '2.1.0',
-  provider => 'pip3'
+  provider => 'pip3',
 }
