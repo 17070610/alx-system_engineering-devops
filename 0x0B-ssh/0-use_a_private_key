@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Use ssh to connect your server using the private key ~/.ssh/school
+# with the user ubuntu
+
+KEY_PATH=~/.ssh/school
+USER=ubuntu
+SERVER_IP=54.173.218.120
+
+ssh -i "$KEY_PATH" "$USER@$SERVER_IP"
