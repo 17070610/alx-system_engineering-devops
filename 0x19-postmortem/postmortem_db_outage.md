@@ -1,5 +1,6 @@
 # Postmortem: Database Connection Failure Outage
-<img src="./db_outage.gif"/>
+![db_outage](https://github.com/user-attachments/assets/bdbecfc1-1975-4eb9-bb0a-cd0276c1e438)
+
 Database outages be like this for real lol
 
 ## Issue Summary
